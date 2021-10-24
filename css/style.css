@@ -1,5 +1,5 @@
 .parent {
-    background-color: hsla (200, 100% 20%);
+    background-color: hsla(200, 100%, 20%);
     height: 400px;
     width: 400px;
 }
@@ -7,8 +7,10 @@
     background-color: red;
     height: 50%;
     width: 50%;
+    transition: background-color 1s;
 }
 
 .parent:hover .child{
+    background-color:green;
     transform: translate(100%);
 }
